@@ -37,7 +37,7 @@ header {
     padding-left: 3rem;
 }
 
-header a {
+.header__button {
     text-decoration: none;
     color: #f6f6f6;
     font-size: 1.2rem;
@@ -45,6 +45,12 @@ header a {
 
 .header__button:hover {
     transform: scale(1.2);
+}
+
+#state__two__button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 /* ------------------ MAIN ------------------ */
@@ -64,6 +70,8 @@ main {
     flex-direction: column;
     gap: 3rem;
     padding-left: 7rem;
+    opacity: 0;
+    padding-bottom: 7rem;
 }
 
 
@@ -77,10 +85,6 @@ main {
     text-align: justify;
 }
 
-
-.content__text, .content__title {
-    display: none;
-}
 
 /* ........ WATER WAVE ........ */
 
@@ -124,7 +128,7 @@ main {
     }
 
     50% {
-        transform: translateY(-150%) rotate(500deg) scale(1.6);
+        transform: translateY(-145%) rotate(500deg) scale(1.6);
     }
 
     100% {
@@ -146,7 +150,7 @@ main {
     font-size: 1.7rem;
     overflow: hidden;
     position: absolute;
-    top: calc(95% - 5.5rem);
+    top: calc(95% - 6rem);
     left: calc(50% - 8rem);
 }
 
