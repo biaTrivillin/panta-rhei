@@ -35,22 +35,17 @@ header {
     align-items: center;
     gap: 4rem;
     padding-left: 3rem;
+    animation: show-next 1s ease-in-out 1 forwards;
 }
 
 .header__button {
     text-decoration: none;
     color: #f6f6f6;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .header__button:hover {
     transform: scale(1.2);
-}
-
-#state__two__button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
 }
 
 /* ------------------ MAIN ------------------ */
@@ -93,12 +88,13 @@ main {
     height: 40rem;
     overflow: hidden;
     position: absolute;
-    top: calc(50% - 24rem);
-    left: calc(50% - 21rem);
+    top: calc(50% - 20rem);
+    left: calc(50% - 19rem);
     background-color: #08668b;
     z-index: 1;
     border-radius: 50%;
     border: solid 3px #08668b;
+    animation: appear 1s ease-in-out 1 forwards;
 }
 
 #water__wave::before {
@@ -108,7 +104,7 @@ main {
     width: 100%;
     height: 100%;
     border-radius: 35%;
-    animation: wave 13s ease-in-out infinite;
+    animation: wave 13s ease-in infinite;
 }
 
 #water__wave::after {
@@ -117,10 +113,51 @@ main {
     background-color: #1F3347;
     width: 100%;
     height: 100%;
-    animation: wave 13s ease-in-out infinite;
+    animation: wave 13s ease-in infinite;
     border-radius: 45%;
 
 }
+
+/* ------------------ BUTTON ------------------ */
+
+.button {
+    width: 14rem;
+    padding: 1rem;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    color: #f6f6f6;
+    background-color: #1F3347;
+    border-radius: 5px;
+    border: solid 3px #08668b;
+    font-size: 1.4rem;
+}
+
+#text__button, #next__button {
+    overflow: hidden;
+    position: absolute;
+    top: calc(95% - 6rem);
+    left: calc(50% - 6rem);
+    word-spacing: 0.5rem;
+}
+
+#text__button {
+    z-index: 1;
+    animation: show-text 2s ease-in-out 1 forwards;
+}
+
+#next__button {
+    animation: show-next 2s ease-in-out 1 forwards;
+    text-align: center;
+    width: 11.4rem;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #08668b;
+    border: solid 2px #08668b;
+}
+
+/* ------------------ ANIMATIONS ------------------ */
 
 @keyframes wave {
     0% {
@@ -128,7 +165,7 @@ main {
     }
 
     50% {
-        transform: translateY(-145%) rotate(500deg) scale(1.6);
+        transform: translateY(-143%) rotate(500deg) scale(1.6);
     }
 
     100% {
@@ -136,30 +173,49 @@ main {
     }
 }  
 
-/* ------------------ BOTÃO ------------------ */
+@keyframes appear {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
 
-#text__button {
-    width: 14rem;
-    padding: 1rem;
-    cursor: pointer;
-    font-family: 'Lato', sans-serif;
-    color: #f6f6f6;
-    background-color: transparent;
-    border-radius: 5px;
-    border: solid 3px #1899cc;
-    font-size: 1.7rem;
-    overflow: hidden;
-    position: absolute;
-    top: calc(95% - 6rem);
-    left: calc(50% - 8rem);
+    to {
+        transform: translateY(-40px);
+        opacity: 1;
+    }
 }
 
-#text__button:hover {
-    background-color: #08668b;
-    font-size: 1.8rem;
-    border: solid 2px #08668b;
+@keyframes show-text {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
+@keyframes show-next {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 
 
