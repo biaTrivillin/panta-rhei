@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panta Rhei</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/page3.css">
+</head>
+<body>
+    <header>
+        <a class="header__button" href="index.html">HOME</a>
+        <a class="header__button" href="page2.html">A MUDANÇA</a>
+        <a class="header__button" href="page3.html">SOBRE MIM</a>
+    </header>
+    <main>
+        <section class="image__container">
+        <section class="animation__container">
+                <section class="wave__container__one">
+                    <div class="wave wave__one"></div>
+                </section>
+
+                <section class="wave__container__two">
+                    <div class="wave wave__two"></div>
+                </section>
+
+                <section class="wave__container__three">
+                    <div class="wave wave__three"></div>
+                </section>
+
+                <section class="wave__container__four">
+                    <div class="wave wave__four"></div>
+                </section>
+
+                <section class="center__container">
+                    <div id="center"></div>
+                </section>
+
+                <svg>
+                    <filter id="gooey__effect">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+                        <feColorMatrix values="
+                            1 0 0 0 0  
+                            0 1 0 0 0  
+                            0 0 1 0 0  
+                            0 0 0 20 -10"  
+                        />
+                    </filter>
+                </svg>
+        </section>
+        <img id="book__image" src="../assets/books-image.png" alt="">
+        <img id="pc__image" src="../assets/pc-image.png" alt="">
+    </section>
+        <p class="content__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint architecto nostrum praesentium tenetur dolores enim inventore repudiandae laborum deserunt. Recusandae pariatur, nobis voluptate odit accusantium non amet, dolorem corrupti eius ipsa architecto blanditiis. Eligendi animi dolor culpa delectus possimus, facilis ratione! Velit perspiciatis quia quisquam! Quae facilis error quis optio architecto placeat consectetur labore officiis laborum magni modi, at necessitatibus ea eos quam similique nemo beatae. Libero saepe itaque sequi perferendis tempora non ducimus, sapiente animi possimus tempore blanditiis autem maiores laudantium officia iusto facilis accusantium nihil impedit accusamus ab minus vel placeat repellendus. </p>
+    </main>
+    <script src="../js/index.js"></script>
+    <script src="../js/page3.js"></script>
+</body>
+</html>

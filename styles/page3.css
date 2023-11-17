@@ -1,0 +1,110 @@
+@import url(animations.css);
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* ------------- IMAGES ------------- */
+
+#book__image, #pc__image {
+    width: 36rem;
+    height: 36rem;
+    overflow: hidden;
+    position: absolute;
+    left: 3%;
+    top: 1%;
+    opacity: 0.5;
+}
+
+#book__image {
+    z-index: 1;
+}
+
+#pc__image {
+    opacity: 0;
+}
+
+.image__container {
+    position: relative;
+    animation: appear-opacity 3s ease-in-out 1 forwards;
+}
+
+/* ------------- WAVE ANIMATION ELEMENTS ------------- */
+
+.animation__container {
+    width: 39rem;
+    height: 39rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    filter: url(#gooey__effect);
+}
+
+#center {
+    width: 39rem;
+    height: 39rem;
+    border-radius: 50%;
+    background-color: #08668b;
+    margin-right: 17%;
+    margin-top: -3%;
+}
+
+.wave {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 40%;
+    background-color: #08668b;
+}
+
+.wave__container__one, .wave__container__two, .wave__container__three, .wave__container__four {
+    width: 35rem;
+    height: 35rem;
+    overflow: hidden;
+    position: absolute;
+}
+
+.wave__container__one, .wave__container__three{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    animation: is-spinning 80s ease-in infinite;
+}
+
+.wave__container__two{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    animation: is-spinning 60s ease-in infinite;
+}
+
+.wave__container__three{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    animation: is-spinning 70s ease-in infinite;
+}
+
+.wave__container__four{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    animation: is-spinning 80s ease-in infinite;
+}
+
+
+.wave__one, .wave__two, .wave__three, .wave__four {
+    animation: is-spinning 20s ease-in infinite;
+}
+
+/* ------------- FIRST TEXT ------------- */
+
+.content__text {
+    margin-top: 5%;
+    animation: appear 1s ease-in-out 1 forwards;
+}
+
