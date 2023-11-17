@@ -106,6 +106,7 @@ main {
 .text__one {
     margin-top: 3%;
     animation: appear 1s ease-in-out 1 forwards;
+    width: 40vw;
 }
 
 .text__two__container {
@@ -116,10 +117,10 @@ main {
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    gap: 8rem;
+    gap: 5rem;
     left: 0;
     width: 60vw;
-    height: 27rem;
+    height: 35rem;
     opacity: 0;    
     display: none;
 }
@@ -127,6 +128,7 @@ main {
 .text__two {
     margin-left: 5vw;
     width: 50vw;
+    /* font-size: 2rem; */
 }
 
 /* ------------- BUTTONS ------------- */
@@ -140,9 +142,9 @@ main {
 }
 
 .social__media__button__container {
-    align-self: center;
     display: flex;
     gap: 2rem;
+    margin-left: 5vw;
 }
 
 .social__media__button {

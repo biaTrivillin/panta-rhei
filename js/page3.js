@@ -55,7 +55,7 @@ function showTextTwo() {
 
     image.animate(
         [
-             { transform: 'translateX(53vw)' },
+             { transform: 'translateX(50vw)' },
          ],
     
         {

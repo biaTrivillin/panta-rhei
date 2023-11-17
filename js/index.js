@@ -15,7 +15,7 @@ function textReveal () {
 
     wave.animate(
         [
-            { transform: 'translateX(25vw)'},
+            { transform: 'translateX(28vw)'},
         ],
 
         {
@@ -41,7 +41,7 @@ function textReveal () {
 
     buttonNxt.animate(
         [   
-            { transform: 'translateX(-20vw)'},
+            { transform: 'translateX(-19vw)'},
         ],
 
         {
