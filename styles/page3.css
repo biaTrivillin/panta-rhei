@@ -28,7 +28,7 @@ main {
 
 .image__container {
     position: relative;
-    animation: appear-opacity 3s ease-in-out 1 forwards;
+    animation: appear-opacity 2s ease-in-out 1 forwards;
 }
 
 /* ------------- WAVE ANIMATION ELEMENTS ------------- */
@@ -101,10 +101,57 @@ main {
     animation: is-spinning 20s ease-in infinite;
 }
 
-/* ------------- FIRST TEXT ------------- */
+/* ------------- TEXTS ------------- */
 
-.content__text {
-    margin-top: 5%;
+.text__one {
+    margin-top: 3%;
     animation: appear 1s ease-in-out 1 forwards;
 }
 
+.text__two__container {
+    overflow: hidden;
+    position: absolute;
+    opacity: 1;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8rem;
+    left: 0;
+    width: 60vw;
+    height: 27rem;
+    opacity: 0;    
+    display: none;
+}
+
+.text__two {
+    margin-left: 5vw;
+    width: 50vw;
+}
+
+/* ------------- BUTTONS ------------- */
+
+#animation__button {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50% + 16rem);
+    top: calc(50% + 19rem);
+    animation: appear 1s ease-in-out 1 forwards;
+}
+
+.social__media__button__container {
+    align-self: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.social__media__button {
+    text-align: center;
+    text-decoration: none;
+    width: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
