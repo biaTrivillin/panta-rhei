@@ -1,5 +1,3 @@
-# panta-rhei
-
 ## 💡Panta Rhei💡
 
 <div>
