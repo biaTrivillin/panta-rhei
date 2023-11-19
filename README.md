@@ -11,7 +11,6 @@
  <img src="assets/panta-rhei-page1.gif" width="400px">
  <img src="assets/panta-rhei-page2.gif" width="400px">
 <div>
-</br>
 
 <div align="center">
  <img width="400px" style="margin-top:-20px" src="assets/panta-rhei-page3.gif">
