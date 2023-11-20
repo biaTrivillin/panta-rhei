@@ -7,11 +7,7 @@
 
 ## 
 
-<div style="display: inline_block" align="center">
- <img src="assets/panta-rhei-page1.gif" width="400px">
- <img src="assets/panta-rhei-page2.gif" width="400px">
-<div>
+<img src="assets/panta-rhei-page1.gif" width="600px">
+<img src="assets/panta-rhei-page2.gif" width="600px">
+<img width="600px" src="assets/panta-rhei-page3.gif">
 
-<div align="center">
- <img width="400px" style="margin-top:-20px" src="assets/panta-rhei-page3.gif">
-</div>
