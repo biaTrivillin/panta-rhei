@@ -3,7 +3,7 @@
 
   
 >Esse projeto surgiu da necessidade de compartilhar um pouco sobre o rio que corre em mim. </br>
->O design inicial foi feito no Figma e está disponível clicando [aqui](https://www.figma.com/file/ehZQBQP3bEqltPprRtoCkS/Panta-Rhei?type=design&node-id=21-2&mode=design&t=AANkWSg1a9N1YJC2-0). </br>
+>O design inicial sofreu muitas alterações, mas foi feito no Figma e está disponível clicando [aqui](https://www.figma.com/file/ehZQBQP3bEqltPprRtoCkS/Panta-Rhei?type=design&node-id=21-2&mode=design&t=AANkWSg1a9N1YJC2-0). </br>
 >O texto também é autoral e reflete profundamente o momento que estou vivendo.  
 
 ##
